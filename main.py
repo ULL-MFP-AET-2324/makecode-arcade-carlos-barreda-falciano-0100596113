@@ -1,6 +1,8 @@
 def on_on_overlap(sprite, otherSprite):
-    fish.x = randint(0, scene.screen_width())
-    fish.y = randint(0, scene.screen_height())
+    info.change_score_by(1)
+    fish.x = randint(5, scene.screen_width() - 6)
+    fish.y = randint(5, scene.screen_height() - 6)
+    info.start_countdown(3)
 sprites.on_overlap(SpriteKind.player, SpriteKind.food, on_on_overlap)
 
 fish: Sprite = None

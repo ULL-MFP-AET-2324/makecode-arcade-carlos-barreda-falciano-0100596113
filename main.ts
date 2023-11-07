@@ -1,6 +1,8 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
-    fish.x = randint(0, scene.screenWidth())
-    fish.y = randint(0, scene.screenHeight())
+    info.changeScoreBy(1)
+    fish.x = randint(5, scene.screenWidth() - 6)
+    fish.y = randint(5, scene.screenHeight() - 6)
+    info.startCountdown(3)
 })
 let fish: Sprite = null
 scene.setBackgroundColor(9)
