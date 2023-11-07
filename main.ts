@@ -1,3 +1,8 @@
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
+    fish.x = randint(0, scene.screenWidth())
+    fish.y = randint(0, scene.screenHeight())
+})
+let fish: Sprite = null
 scene.setBackgroundColor(9)
 let shark = sprites.create(img`
     .............ccfff..............
@@ -18,7 +23,7 @@ let shark = sprites.create(img`
     .............fffff..............
     `, SpriteKind.Player)
 controller.moveSprite(shark)
-let fish = sprites.create(img`
+fish = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . c c c c . . . . 
     . . . . . . c c d d d d c . . . 

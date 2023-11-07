@@ -1,3 +1,9 @@
+def on_on_overlap(sprite, otherSprite):
+    fish.x = randint(0, scene.screen_width())
+    fish.y = randint(0, scene.screen_height())
+sprites.on_overlap(SpriteKind.player, SpriteKind.food, on_on_overlap)
+
+fish: Sprite = None
 scene.set_background_color(9)
 shark = sprites.create(img("""
         .............ccfff..............
