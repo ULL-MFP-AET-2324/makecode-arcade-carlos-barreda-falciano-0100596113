@@ -3,28 +3,22 @@
 ## Enlaces de la práctica:
 
 Organización:
-
-![Organizacion:](https://github.com/orgs/ull-mfp-aet-2324-alu0100596113/repositories)
+https://github.com/orgs/ull-mfp-aet-2324-alu0100596113/repositories
 
 Enlace roster:
-
-![Enlace roster:](https://classroom.github.com/classrooms/149103989-ull-mfp-aet-2324-alu0100596113/roster)
+https://classroom.github.com/classrooms/149103989-ull-mfp-aet-2324-alu0100596113/roster
 
 Enlace tarea makecode:
-
-![Enlace tarea makecode:](https://classroom.github.com/classrooms/149103989-ull-mfp-aet-2324-alu0100596113/assignments/makecode)
+https://classroom.github.com/classrooms/149103989-ull-mfp-aet-2324-alu0100596113/assignments/makecode
 
 Enlace template:
-
-![Enlace template:](https://github.com/ull-mfp-aet-2324-alu0100596113/makecode-template)
+https://github.com/ull-mfp-aet-2324-alu0100596113/makecode-template
 
 Classrom:
-
-![Classrom](https://classroom.github.com/classrooms)
+https://classroom.github.com/classrooms
 
 Asignacion:
-
-![Asignacion:](https://classroom.github.com/classrooms/149103989-ull-mfp-aet-2324-alu0100596113/assignments/makecode)
+https://classroom.github.com/classrooms/149103989-ull-mfp-aet-2324-alu0100596113/assignments/makecode
 
 
 ## Assignment
